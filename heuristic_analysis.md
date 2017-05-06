@@ -45,6 +45,7 @@ I suggest using **A\* search** with admissible heuristics to solve simliar probl
 ## Metrics
 
 #### Non-heuristic planning searches
+
 | Problem | Search | Node Expansions | Goal Tests | New Nodes | Time (ms) | Plan Cost |
 | ------- | ------ | --------------: | ---------: | --------: | --------: | :-------: |
 | 1 | breadth-first graph | 43 | 56 | 180 | 54 | *6* |
@@ -64,6 +65,7 @@ I suggest using **A\* search** with admissible heuristics to solve simliar probl
 | 3 | uniform cost | 18235 | 18237 | 159716 | 462659 | *12* |
 
 #### A\* search with heuristics
+
 | Problem | Heuristic | Node Expansions | Goal Tests | New Nodes | Time (ms) | Plan Cost |
 | ------- | --------- | --------------: | ---------: | --------: | --------: | :-------: |
 | 1 | ignore precondition | 41 | 43 | 170 | 55 | *6* |
